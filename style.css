@@ -1,0 +1,69 @@
+/* style.css */
+body{
+  background: rgb(245,245,245);
+  color:#637081;
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-family: 'Fira Sans', sans-serif;
+  color: #536b78;
+  font-weight: lighter;
+  font-size: 25px;
+}
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #accbe1;
+  font-weight: lighter;
+  font-size: 20px;
+}
+a {
+  color: blue;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner{
+  text-align: center;
+  background-image: url(image/plage.png);
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  text-align: center;
+
+}
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+
+.card{
+  padding: 50px;
+  border: 2px solid blue;
+  width: 300px
+  height: 300px;
+  border-radius: 150px;
+  font-weight: medium;
+  text-align: center;
+}
